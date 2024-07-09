@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compumundohipermegared</title>
+    <link rel="stylesheet" href="../general/css/normalize.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="../general/media/logo.png" alt="logo">
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="login-info">
+            <p class="login-text">Inicia Sesion en tu cuenta</p>
+            <div class="login-email">
+                <p>Correo Electronico:</p>
+                <input type="text" id="email">
+            </div>
+            <div class="login-password">
+                <p>Contrasena:</p>
+                <input type="password" id="password">
+            </div>
+            <p id="error-message" style="color: red; display: none;">Credenciales equivocadas</p>
+            <button type="button" id="login-button">Iniciar Sesion</button>
+            <a href="../mainMenu/index.html" id="main-back">Volver a la pagina principal</a>
+            <a href="../registerPage/index.html" id="register-back">Crear cuenta</a>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

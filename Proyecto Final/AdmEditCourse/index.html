@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edicion de Curso</title>
+        <link rel="stylesheet" href="../general/css/normalize.css">
+        <link rel="stylesheet" href="css/edit.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-info">
+                <div class="header-pfp">
+                    <img src="../general/media/admin.png" alt="foto de perfil">
+                    <p id="username">PLACEHOLDER</p>
+                    <button id="profile-button">
+                        Ver Perfil
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="main-container">
+            <h1>Informacion del curso</h1>
+            <div class="course-info">
+                <form>
+                    <div class="course-name">
+                        <p>Nombre del curso:</p>
+                        <input type="text" id="name-course-field">
+                    </div>
+                    <div class="description-course">
+                        <p>Descripcion:</p>
+                        <textarea id="description-course-area" required></textarea>
+                    </div>
+                    <div class="short-description">
+                        <p>Descripcion breve:</p>
+                        <textarea id="short-description-area" required></textarea>
+                    </div>
+                    <div class="image-course">
+                        <p>Imagen:</p>
+                        <input type="file" id="image-course-file" accept="image/*" required>
+                    </div>
+                    <div class="preview-image-course">
+                        <p>Imagen vista previa:</p>
+                        <input type="file" id="image-course-file-preview" accept="image/*" required>
+                    </div>
+                </form>
+            </div>
+            <button id="add-course-button">
+                Anadir Curso
+            </button>
+            <button id="delete-course-button">
+                Eliminar Curso!
+            </button>
+        </div>
+        <footer>
+            <div class="footer-info">
+                <img src="../general/media/logo.png" alt="logo">
+                <p>Diego Perez ©2024</p>
+            </div>
+        </footer>
+        <script src="adminCourse.js"></script>
+    </body>
+</html>

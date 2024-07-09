@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edicion de Leccion</title>
+        <link rel="stylesheet" href="../general/css/normalize.css">
+        <link rel="stylesheet" href="css/edit.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-info">
+                <div class="header-pfp">
+                    <img src="../general/media/admin.png" alt="foto de perfil">
+                    <p id="username">PLACEHOLDER</p>
+                    <button id="profile-button">
+                        Ver Perfil
+                    </button>
+                </div>
+            </div>
+        </header>
+        <div class="main-container">
+            <h1>Informacion de la leccion</h1>
+            <div class="lesson-info">
+                <form>
+                    <div class="lesson-name">
+                        <p>Nombre de la Leccion:</p>
+                        <input type="text" id="name-lesson-field">
+                    </div>
+                    <div class="description-lesson">
+                        <p>Texto de la Leccion:</p>
+                        <textarea id="description-lesson-area" required></textarea>
+                    </div>
+                    <div class="short-description">
+                        <p>Descripcion breve:</p>
+                        <textarea id="short-description-area" required></textarea>
+                    </div>
+                    <div class="video-lesson">
+                        <p>Enlace del Video:</p>
+                        <input type="text" id="video-lesson-field">
+                    </div>
+                </form>
+            </div>
+            <button id="add-lesson">
+                Anadir Leccion
+            </button>
+            <button id="delete-lesson">
+                Borrar Leccion
+            </button>
+        </div>
+        <footer>
+            <div class="footer-info">
+                <img src="../general/media/logo.png" alt="logo">
+                <p>Diego Perez ©2024</p>
+            </div>
+        </footer>
+        <script src="adminLesson.js"></script>
+    </body>
+</html>

@@ -1,0 +1,385 @@
+*{
+    font-family:'Popper','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:500px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info progress{
+        width: 300px;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 300px;
+        margin: auto 0;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .main-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto ;
+        padding-bottom: 20px;
+        min-height: 490px;
+    }
+    .course-info{
+        text-align: center;
+    }
+    .main-container img{
+        width: 300px;
+        height: 168px;
+        border: 3px solid rgb(0, 76, 153);
+        margin-bottom: 10px;
+    }
+    .main-container button{
+        background-color: rgb(255, 255, 102);
+    }
+    #progress-bar{
+        display: none;
+    }
+    #register-button{
+        display: none;
+    }
+    #edit-course{
+        display: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #register-button{
+        margin-top: 10px;
+        margin-left: 110px;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-info img{
+        height: 35px;
+        width: 300px;
+    }
+}
+@media (min-width:501px) and (max-width:991px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-pfp img{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    .header-pfp p{
+        margin-right: 10px
+    }
+    .header-info progress{
+        width: 300px;
+    }
+    .main-container{
+        width: 700px;
+        margin: 0 auto ;
+        min-height: 550px;
+        padding-bottom: 20px;
+    }
+    .course-info{
+        text-align: center;
+    }
+    .course-info h1{
+        font-size: 15px;
+    }
+    .course-info p{
+        font-size: 15px;
+    }
+    .main-container img{
+        width: 300px;
+        height: 168px;
+        margin-bottom: 10px;
+        border: 3px solid rgb(0, 76, 153);
+    }
+    .main-container button{
+        background-color: rgb(255, 255, 102);
+    }
+    #progress-bar{
+        display: none;
+    }
+    #register-button{
+        display: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #edit-course{
+        display: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 300px;
+    }
+}
+@media (min-width:992px) and (max-width:1439px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto ;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .header-pfp p{
+        margin-right: 20px
+    }
+    .header-info progress{
+        width: 600px;
+    }
+    .main-container{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto ;
+        padding-bottom: 20px;
+    }
+    .course-info{
+        text-align: center;
+    }
+    .course-info h1{
+        font-size: 30px;
+    }
+    .course-info p{
+        font-size: 20px;
+    }
+    .main-container img{
+        width: 800px;
+        height: 400px;
+        margin-bottom: 10px;
+        min-height: 692px;
+        border: 3px solid rgb(0, 76, 153);
+    }
+    .main-container button{
+        background-color: rgb(255, 255, 102);
+    }
+    
+    #progress-bar{
+        display: none;
+    }
+    #register-button{
+        display: none;
+    }
+    #crear-leccion{
+        display: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #edit-course{
+        display: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 500px;
+    }
+}
+@media (min-width:1440px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1440px;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .header-pfp p{
+        margin-right: 20px
+    }
+    .header-info progress{
+        width: 600px;
+    }
+    .main-container{
+        width: 1440px;
+        min-height: 692px;
+        margin: 0 auto ;
+        margin-bottom: 20px;
+    }
+    .course-info{
+        text-align: center;
+    }
+    .course-info h1{
+        font-size: 30px;
+    }
+    .course-info p{
+        font-size: 20px;
+    }
+    .main-container img{
+        width: 800px;
+        height: 400px;
+        margin-bottom: 10px;
+        border: 3px solid rgb(0, 76, 153);
+    }
+    .main-container button{
+        background-color: rgb(255, 255, 102);
+    }
+    
+    #progress-bar{
+        display: none;
+    }
+    #register-button{
+        display: none;
+    }
+    #crear-leccion{
+        display: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+    }
+    #edit-course{
+        display: none;
+        width: 120px;
+        height: 40px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 500px;
+    }
+}

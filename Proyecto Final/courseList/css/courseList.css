@@ -1,0 +1,369 @@
+*{
+    font-family:'Popper','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:500px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-pfp{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 300px;
+        margin: auto 0;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-info img{
+        height: 35px;
+        width: 300px;
+    }
+    #search-bar{
+        width: 300px;
+    }
+    .main-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto;
+        min-height: 490px;
+    }
+    .main-container img{
+        width: 300px;
+        height: 168px;
+        border: 3px solid rgb(0, 76, 153);
+    }
+    .course-item{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 80px;
+    }
+    .course-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    #register{
+        display: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #create-course-button{
+        background-color: rgb(255, 255, 102);
+        display: none;
+    }
+}
+@media (min-width:501px) and (max-width:991px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-pfp img{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    .header-pfp p{
+        margin-right: 10px
+    }
+    #search-bar{
+        width: 300px;
+    }
+    .main-container{
+        width: 700px;
+        margin: 0 auto ;
+        min-height: 550px;
+    }
+    .main-container img{
+        width: 300px;
+        height: 168px;
+        border: 3px solid rgb(0, 76, 153);
+    }
+    .course-item{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        margin-right: 25px;
+    }
+    .course-item Button{
+        height: 30px;
+        width: 120px;
+        background-color: rgb(255, 255, 102);
+        font-size: 15px;
+    }
+    .course-item  progress{
+        height: 10px;
+        width: 150px;
+        margin-left: 20px;
+    }
+    .course-item p{
+        font-size: 10px;
+    }
+    .course-item h3{
+        font-size: 15px;
+    }
+    #register{
+        display: none;
+    }
+    #create-course-button{
+        background-color: rgb(255, 255, 102);
+        display: none;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 300px;
+    }
+}
+@media (min-width:992px) and (max-width:1439px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .header-pfp p{
+        margin-right: 20px
+    }
+    #search-bar{
+        width: 600px;
+    }
+    .main-container{
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 609px;
+        margin: 0 auto ;
+    }
+    .main-container img{
+        width: 500px;
+        height: 282px;
+        border: 3px solid rgb(0, 76, 153);
+    }
+    .course-item{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+    .course-item Button{
+        height: 60px;
+        width: 200px;
+        background-color: rgb(255, 255, 102);
+    }
+    .course-item progress{
+        height: 20px;
+        width: 500px;
+        margin-left: 40px;
+    }
+    .course-info{
+        margin-right: 50px;
+    }
+    .course-info p{
+        font-size: 20px;
+    }
+    .course-info h3{
+        font-size: 30px;
+    }
+    #register{
+        display: none;
+    }
+    #create-course-button{
+        background-color: rgb(255, 255, 102);
+        display: none;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 500px;
+    }
+}
+@media (min-width:1440px ){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1440px;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .header-pfp p{
+        margin-right: 20px
+    }
+    #search-bar{
+        width: 600px;
+    }
+    .main-container{
+        width: 1440px;
+        min-height: 692px;
+        margin: 0 auto ;
+    }
+    .main-container img{
+        width: 500px;
+        height: 282px;
+        border: 3px solid rgb(0, 76, 153);
+    }
+    .course-item{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 80px;
+    }
+    .course-item Button{
+        height: 60px;
+        width: 200px;
+        background-color: rgb(255, 255, 102);
+    }
+    .course-item progress{
+        height: 20px;
+        width: 500px;
+        margin-left: 40px;
+    }
+    .course-info{
+        margin-right: 50px;
+    }
+    .course-info p{
+        font-size: 20px;
+    }
+    .course-info h3{
+        font-size: 30px;
+    }
+    #register{
+        display: none;
+    }
+    #create-course-button{
+        background-color: rgb(255, 255, 102);
+        display: none;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 500px;
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head lang="es">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../general/css/normalize.css">
+        <link rel="stylesheet" href="css/fundamentos.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-info">
+                <div class="header-pfp">
+                    <img src="../general/media/profilePic.jpg" id = "profile-pic" alt="foto de perfil">
+                    <p id="username">PLACEHOLDER</p>
+                    <button id="profile-button">
+                            Ver Perfil
+                    </button>
+                    <button id="register-button">
+                        Registrarse
+                    </button>
+                </div>
+                <p id="header-course-title">Fundamentos de programacion</p>
+            </div>
+        </header>
+        <div class="main-container">
+            <div class="course-info">
+                <button id="edit-course" style="display: none;">
+                    Editar Curso
+                </button>
+                <h1 id="course-title"></h1>
+                <p id="course-text"> </p>
+                <img id="course-image" alt="imagen del curso"> <br>
+                <button id="matricular-button">
+                    Matricularme a este curso
+                </button>
+                <h3>Lecciones</h3>
+                <button id="crear-leccion">
+                    Agregar Leccion
+                </button>
+            </div>
+            <div class="lessons-list">
+            </div>
+        </div>
+        <footer>
+            <div class="footer-info">
+                <img src="../general/media/logo.png" alt="logo">
+                <p>Diego Perez ©2024</p>
+            </div>
+        </footer>
+        <script src="curso.js"></script>
+    </body>
+</html>

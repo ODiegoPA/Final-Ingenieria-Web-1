@@ -1,0 +1,303 @@
+*{
+    font-family:'Popper','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:500px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .header-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-pfp{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        width: 300px;
+        margin: auto 0;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .lesson{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto ;
+        padding-bottom: 20px;
+    }
+    .lesson iframe{
+        width: 300px;
+        padding-bottom: 10px;
+    }
+    .lesson button{
+        background-color: rgb(255, 255, 102);
+        width: 140px;
+        height: 60px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #edit-lesson{
+        display: none;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-info img{
+        height: 35px;
+        width: 300px;
+    }
+}
+@media (min-width:501px) and (max-width:991px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 700px;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-pfp img{
+        height: 20px;
+        width: 20px;
+        margin-right: 10px;
+    }
+    .header-pfp p{
+        margin-right: 10px
+    }
+    .main-container{
+        width: 700px;
+        margin: 0 auto ;
+        padding-bottom: 20px;
+    }
+    .lesson{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .lesson p{
+        font-size: 20px;
+    }
+    .lesson iframe{
+        padding-bottom: 20px;
+    }
+    .lesson button{
+        background-color: rgb(255, 255, 102);
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #edit-lesson{
+        display: none;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 700px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 300px;
+    }
+}
+@media (min-width:992px) and (max-width:1439px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .header-pfp p{
+        margin-right: 20px
+    }
+    .main-container{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto ;
+        padding-bottom: 20px;
+    }
+    .lesson{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .lesson p{
+        font-size: 20px;
+    }
+    .lesson iframe{
+        width: 800px;
+        height: 450px;
+        padding-bottom: 20px;
+    }
+    .lesson button{
+        background-color: rgb(255, 255, 102);
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #edit-lesson{
+        display: none;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 500px;
+    }
+}
+@media (min-width:1440px){
+    body{
+        background-color: rgb(240, 253, 255);
+    }
+    header{
+        background-color: rgb(0, 76, 153);
+        padding-bottom: 4px;
+    }
+    .header-info button{
+        background-color: rgb(255, 255, 102);
+    }
+    .header-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1440px;
+        margin: 0 auto ;
+    }
+    .header-pfp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .header-pfp img{
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    .header-pfp p{
+        margin-right: 20px
+    }
+    .main-container{
+        width: 1440px;
+        margin: 0 auto ;
+        padding-bottom: 20px;
+    }
+    .lesson{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .lesson p{
+        font-size: 20px;
+    }
+    .lesson iframe{
+        width: 800px;
+        height: 450px;
+        padding-bottom: 20px;
+    }
+    .lesson button{
+        background-color: rgb(255, 255, 102);
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    #edit-lesson{
+        display: none;
+    }
+    footer{
+        background-color: rgb(0, 76, 153);
+    }
+    .footer-info{
+        width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-info img{
+        height: 45px;
+        width: 500px;
+    }
+}

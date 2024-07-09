@@ -1,0 +1,184 @@
+*{
+    font-family:'Popper','Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width:500px){
+    header{
+        background-color: rgb(0, 76, 153);
+    }
+    .header-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-logo img{
+        height: 35px;
+        width: 300px;
+    }
+    body{
+        background-image: url(../media/background.jpg);
+        background-position: center;
+        background-size: cover
+    }
+    .main-container{
+        margin-top: 80px;
+    }
+    .login-info{
+        background-color: rgb(158, 207, 255);
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+     .login-email,.login-password{
+        padding-bottom: 20px;
+    }
+     .login-email p,.login-password p{
+        margin-bottom: 5px;
+    }
+    #login-button{
+        padding-bottom: 10px;
+    }
+    #register-back, #main-back{
+        color: black;
+        padding-bottom: 20px;
+    }
+    #login-button {
+        height: 40px;
+        width: 178.4px;
+        background-color: rgb(255, 255, 102);
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    #error-message{
+        color: red;
+        display: none;
+    }
+}
+@media(min-width:501px) and (max-width:991px){
+    header{
+        background-color: rgb(0, 76, 153);
+    }
+    .header-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-logo img{
+        height: 35px;
+        width: 300px;
+    }
+    body{
+        background-image: url(../media/background.jpg);
+        background-position: center;
+        background-size: cover
+    }
+    .main-container{
+        margin-top: 60px;
+    }
+    .login-info{
+        background-color: rgb(158, 207, 255);
+        font-size: 15px;
+        width: 300px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 3px solid rgb(45, 62, 78);
+    }
+    .login-password, .login-email{
+        padding-bottom: 20px;
+    }
+    .login-email p{
+        margin-bottom: 5px;
+    }
+    .login-password{
+        padding-bottom: 25px;
+    }
+    #login-button{
+        padding-bottom: 20px;
+    }
+    #main-back , #register-back{
+        color: black;
+        padding-bottom: 20px;
+    }
+    #login-button{
+        height: 40px;
+        width: 168.8px;
+        background-color: rgb(255, 255, 102);
+        font-size: 20px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    #error-message{
+        color: red;
+        display: none;
+    }
+}
+@media(min-width:992px){
+    header{
+        background-color: rgb(0, 76, 153);
+    }
+    .header-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header-logo img{
+        height: 45px;
+        width: 500px;
+    }
+    body{
+        background-image: url(../media/background.jpg);
+        background-position: center;
+        background-size: cover
+    }
+    .main-container{
+        margin-top: 80px;
+    }
+    .login-info{
+        background-color: rgb(158, 207, 255);
+        font-size: 20px;
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 3px solid rgb(45, 62, 78);
+    }
+    .login-password, .login-email{
+        padding-bottom: 20px;
+    }
+    .login-email p,.login-password p{
+        margin-bottom: 5px;
+    }
+    .login-password{
+        padding-bottom: 25px;
+    }
+    #login-button{
+        padding-bottom: 20px;
+    }
+    #register-back , #main-back{
+        color: black;
+        padding-bottom: 20px;
+    }
+    #login-button{
+        height: 60px;
+        width: 220px;
+        background-color: rgb(255, 255, 102);
+        font-size: 30px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    #error-message{
+        color: red;
+        display: none;
+    }
+}
